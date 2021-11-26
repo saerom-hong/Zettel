@@ -9,10 +9,11 @@ function Note(props) {
   return (
     <div className="note">
       <h1>{props.title}</h1>
-      <p>{props.content}</p>
+      <p>Hello welcome to the Zettel World</p>
       <button onClick={handleClick}><DeleteIcon /></button>
     </div>
   );
 }
 
 export default Note;
+
